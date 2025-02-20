@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 // Initialize Firebase Admin SDK (assuming this is already done in your main file)
 // If not, uncomment and update with your service account path
 
-const serviceAccount = require('/handzy-c04d2-firebase-adminsdk-fbsvc-dfef930ebd.json');
+const serviceAccount = require('handzy-c04d2-firebase-adminsdk-fbsvc-dfef930ebd.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
